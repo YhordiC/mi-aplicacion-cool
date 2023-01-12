@@ -1,0 +1,23 @@
+.contenedor{
+    background-color: azure;
+   display: flex;
+   justify-content: space-between;
+}
+.contenedor div{
+    margin-top: 3px;
+}
+h2,p{
+    font-size: 15px;
+    
+}
+.eliminar{
+    
+   
+    font: -webkit-control;
+    
+}
+.eliminar:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    font: caption;
+}

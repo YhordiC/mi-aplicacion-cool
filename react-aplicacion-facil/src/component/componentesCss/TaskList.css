@@ -1,0 +1,7 @@
+.container{
+    width: 100%;
+    padding: 15px 9px;
+    background-color: aliceblue;
+    overflow-y: scroll;
+    height: 40%;
+}

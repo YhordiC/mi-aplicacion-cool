@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.App{
+   margin: 0 auto;
+    height: 100vh;
+    width: 60vw;
+    min-width: 350px;
+}

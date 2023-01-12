@@ -1,0 +1,31 @@
+.form{
+    width: 100%;
+     min-width: 300px; 
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: coral;
+    border-radius: 3px;
+}
+.form p,span{
+    font-size: 20px;
+    padding: 6px 0;
+}
+.form input, .form textarea{
+    font-size: 15px;
+    padding: 5px 5px;
+}
+.form textarea{
+    margin-bottom: 15px;
+    height: 90px;
+}
+.form button{
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 5px 0;
+}
+.form button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
