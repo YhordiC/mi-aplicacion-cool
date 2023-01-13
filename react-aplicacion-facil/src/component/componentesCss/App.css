@@ -10,3 +10,14 @@
     width: 60vw;
     min-width: 350px;
 }
+
+@media (max-width:912px){
+    .App{
+        width: 70vw;
+    }
+}
+@media (max-width:440px) {
+    .App{
+        width: 0;
+    }
+}

@@ -1,6 +1,6 @@
 import { createContext } from "react"
 import { useEffect,useState } from "react"
-import {Tasks} from "..task.js"
+import {Tasks} from "../task"
 
 export const TaskContext= createContext()
 

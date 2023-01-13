@@ -30,20 +30,22 @@ function TaskForm() {
       </p>
       <input
         type="text"
-        placeholder="Nueva tarea"
+        placeholder="Titulo de la tarea"
         onChange={(e) => {
           settask(e.target.value);
         }}
         value={title}
         autoFocus
+        maxLength={50}
       />
       <span>Describe su tarea *requerido</span>
       <textarea
-        placeholder="Escribe sobre tu dia"
+        placeholder="Escribe la descripción de tu tarea"
         onChange={(e) => {
           setdescription(e.target.value);
         }}
         value={description}
+        maxLength={100}
       ></textarea>
       <button>Sudmit</button>
     </form>
