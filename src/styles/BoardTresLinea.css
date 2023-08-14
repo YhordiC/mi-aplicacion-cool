@@ -1,0 +1,56 @@
+.container-btn-audio{
+    display: flex;
+    justify-content: center;
+}
+.btn-shadow, .btn-music{
+    position: absolute;
+    border: 0;
+}
+.btn-shadow{
+    top: -95px;
+    width: 60px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: antiquewhite;
+   
+}
+.btn-music{
+    top: -100px;
+    border-radius: 40px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    
+}
+.btn-music:active{
+    transform: translate(0px, 3px)
+}
+.tabla{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: max-content;
+}
+.tabla :nth-child(1) 
+,:nth-child(4),
+:nth-child(7){
+    border-left: 0;
+}
+
+.tabla :nth-child(3) 
+,:nth-child(6),
+:nth-child(9){
+    border-right: 0;
+}
+.tabla :nth-child(1) 
+,:nth-child(2),
+:nth-child(3){
+    border-top: 0;
+}
+
+.tabla :nth-child(7) 
+,:nth-child(8),
+:nth-child(9){
+    border-bottom: 0;
+}
+.status p{
+ color:rgb(93, 121, 243);
+}

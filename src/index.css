@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:url('../src/img/fondoPacman.png');
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed; /*fondo que se escala automaticamente*/
+ background-size: cover;
+ background-color: black;
+
+  width: 100vw;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@media only screen and (max-width: 767px){
+ body{
+  background-image: url('../src/img/\'For.jpeg');
+  
+ }
 }
