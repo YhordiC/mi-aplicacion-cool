@@ -4,9 +4,12 @@ import '../styles/GameTresLinea.css'
 
 const TresInRaya = () => {
 
-  
-  const [history,setHistory]= useState([Array(9).fill(null)]);
+  /* en nuestro estado creamos un areglo y lo llenamos con null,
+  haciendo un historial de nuestros movimient*/
+  const [history,setHistory]= useState([Array(9).fill(null)]); 
+  // emnumera los movientos 
   const [currentMove, setCurrentMove] = useState(0);
+
   const currentSquares = history[currentMove];
   const xIsNext = currentMove % 2 === 0;
 
